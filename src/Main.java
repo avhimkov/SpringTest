@@ -1,10 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        if (args.length>0){
-            System.out.println(args[0]);
-        } else {
-            System.out.println("Hello World!");
-        }
+        MessageRenderer mr = new StandardOutMessageRenderer();
+        MessageProvider mp = new HelloWorlMessageProvider();
+        mr.setMessageProvider(mp);
+        mr.render();
     }
 }
