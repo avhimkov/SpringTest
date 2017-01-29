@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-            http://www.spingframework.org/schema/beans/spring-beans.xsd">
-    <bean id="provider" class="HelloWorlMessageProvider"/>
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="provider" class="HelloWorldMessageProvider"/>
     <bean id="renderer" class="StandardOutMessageRenderer" p:messageProvider-ref="provider"/>
 </beans>

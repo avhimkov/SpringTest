@@ -2,6 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>SpringTest</name>
+    <url>http://adl.org</url>
+
     <groupId>org.adl.spingtest</groupId>
     <artifactId>springtest</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -18,9 +21,6 @@
         </plugins>
     </build>
     <packaging>jar</packaging>
-
-    <name>Maven Quick Start Archetype</name>
-    <url>http://maven.apache.org</url>
 
     <dependencies>
         <dependency>
