@@ -5,6 +5,6 @@ public class SetterInjection {
     }
     @Override
     public String toString(){
-        return dependency.toString;
+        return dependency.toString();
     }
 }

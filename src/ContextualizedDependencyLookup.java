@@ -1,6 +1,4 @@
-/**
- * Created by adl on 31.01.2017.
- */
+
 public class ContextualizedDependencyLookup implements ManagedComponent {
     private Dependency dependency;
 
