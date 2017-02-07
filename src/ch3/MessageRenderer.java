@@ -1,4 +1,4 @@
-package annotation;
+package ch3;
 
 /**
  * Created by adl on 26.01.17.

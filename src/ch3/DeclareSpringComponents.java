@@ -1,3 +1,5 @@
+package ch3;
+
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class DeclareSpringComponents {

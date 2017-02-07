@@ -1,6 +1,5 @@
-package xml;
+package ch3.annotation;
 
-import jdk.nashorn.internal.objects.annotations.Constructor;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class ConstructorConfusion {
@@ -23,6 +22,6 @@ public class ConstructorConfusion {
     }
     public String toString(){
         return someValue;
-//        java.lang.reflect.Constructor Injection:constructor confusion
+//        Constructor Injection:constructor confusion
     }
 }

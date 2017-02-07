@@ -1,5 +1,7 @@
-package annotation;
+package ch3.annotation;
 
+import ch3.MessageProvider;
+import ch3.MessageRenderer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

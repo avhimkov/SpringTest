@@ -7,7 +7,7 @@
     <bean id="messageProvider" class="ConfigurableMessageProvider"
         c:message="This is a configurable message"/>
     <bean id="constructorConfusion"
-          class="xml.ConstructorConfusion">
+          class="ch3.xml.ConstructorConfusion">
             <constructor-arg>
                 <value>90</value>
             </constructor-arg>

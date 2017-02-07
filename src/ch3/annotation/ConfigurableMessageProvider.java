@@ -1,7 +1,7 @@
-package annotation;
+package ch3.annotation;
 
+import ch3.MessageProvider;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service("messageProvider")

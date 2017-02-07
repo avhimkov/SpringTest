@@ -3,7 +3,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service("messageProvider")
-public class ConfigurableMessageProvider implements MessageProvider{
+public class ConfigurableMessageProvider implements MessageProvider {
     private String message;
 
     @Autowired
