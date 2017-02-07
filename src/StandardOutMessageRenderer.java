@@ -1,4 +1,3 @@
-
 public class StandardOutMessageRenderer implements MessageRenderer {
     private MessageProvider messageProvider;
     @Override
